@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730AEA4029E5382E003364F0 /* FilamentComboBoxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AEA3F29E5382E003364F0 /* FilamentComboBoxCell.swift */; };
+		730AEA4229E5B705003364F0 /* NSColorCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AEA4129E5B705003364F0 /* NSColorCodable.swift */; };
+		730AEA4429E5C942003364F0 /* RubleFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AEA4329E5C942003364F0 /* RubleFormatter.swift */; };
+		7392721729E0E1F500EF8265 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392721629E0E1F500EF8265 /* AppDelegate.swift */; };
+		7392721929E0E1F500EF8265 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392721829E0E1F500EF8265 /* MainViewController.swift */; };
+		7392721B29E0E1F500EF8265 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392721A29E0E1F500EF8265 /* Document.swift */; };
+		7392721E29E0E1F500EF8265 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7392721C29E0E1F500EF8265 /* Document.xcdatamodeld */; };
+		7392722029E0E1F600EF8265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7392721F29E0E1F600EF8265 /* Assets.xcassets */; };
+		7392722329E0E1F600EF8265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7392722129E0E1F600EF8265 /* Main.storyboard */; };
+		7392722F29E0E1F600EF8265 /* _D_Print_RegTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392722E29E0E1F600EF8265 /* _D_Print_RegTests.swift */; };
+		7392723929E0E1F600EF8265 /* _D_Print_RegUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392723829E0E1F600EF8265 /* _D_Print_RegUITests.swift */; };
+		7392723B29E0E1F600EF8265 /* _D_Print_RegUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392723A29E0E1F600EF8265 /* _D_Print_RegUITestsLaunchTests.swift */; };
+		7392724829E1A52100EF8265 /* PartsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392724729E1A52100EF8265 /* PartsTableViewController.swift */; };
+		7392724A29E1AEF100EF8265 /* Part.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392724929E1AEF100EF8265 /* Part.swift */; };
+		7392724C29E1B0B200EF8265 /* Filament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392724B29E1B0B200EF8265 /* Filament.swift */; };
+		7392724E29E1DD3F00EF8265 /* PrintingProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392724D29E1DD3F00EF8265 /* PrintingProject.swift */; };
+		7392725029E24AA600EF8265 /* NewPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392724F29E24AA600EF8265 /* NewPartViewController.swift */; };
+		7392725329E2FBC500EF8265 /* NewFilamentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392725129E2FBC500EF8265 /* NewFilamentController.swift */; };
+		7392725629E2FC2D00EF8265 /* FilamentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392725529E2FC2D00EF8265 /* FilamentsTableViewController.swift */; };
+		7392725829E30C7500EF8265 /* ColorCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392725729E30C7500EF8265 /* ColorCellView.swift */; };
+		7392725A29E30DFD00EF8265 /* FilamentComboBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392725929E30DFD00EF8265 /* FilamentComboBox.swift */; };
+		7392725C29E30E9300EF8265 /* CheckboxCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392725B29E30E9300EF8265 /* CheckboxCellView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7392722B29E0E1F600EF8265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7392720B29E0E1F500EF8265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7392721229E0E1F500EF8265;
+			remoteInfo = "3D Print Reg";
+		};
+		7392723529E0E1F600EF8265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7392720B29E0E1F500EF8265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7392721229E0E1F500EF8265;
+			remoteInfo = "3D Print Reg";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		730AEA3F29E5382E003364F0 /* FilamentComboBoxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilamentComboBoxCell.swift; sourceTree = "<group>"; };
+		730AEA4129E5B705003364F0 /* NSColorCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSColorCodable.swift; sourceTree = "<group>"; };
+		730AEA4329E5C942003364F0 /* RubleFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubleFormatter.swift; sourceTree = "<group>"; };
+		7392721329E0E1F500EF8265 /* 3D Print Reg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Print Reg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7392721629E0E1F500EF8265 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7392721829E0E1F500EF8265 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7392721A29E0E1F500EF8265 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		7392721D29E0E1F500EF8265 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		7392721F29E0E1F600EF8265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7392722229E0E1F600EF8265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7392722429E0E1F600EF8265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7392722529E0E1F600EF8265 /* _D_Print_Reg.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _D_Print_Reg.entitlements; sourceTree = "<group>"; };
+		7392722A29E0E1F600EF8265 /* 3D Print RegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D Print RegTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7392722E29E0E1F600EF8265 /* _D_Print_RegTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Print_RegTests.swift; sourceTree = "<group>"; };
+		7392723429E0E1F600EF8265 /* 3D Print RegUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3D Print RegUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7392723829E0E1F600EF8265 /* _D_Print_RegUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Print_RegUITests.swift; sourceTree = "<group>"; };
+		7392723A29E0E1F600EF8265 /* _D_Print_RegUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Print_RegUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7392724729E1A52100EF8265 /* PartsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartsTableViewController.swift; sourceTree = "<group>"; };
+		7392724929E1AEF100EF8265 /* Part.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part.swift; sourceTree = "<group>"; };
+		7392724B29E1B0B200EF8265 /* Filament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filament.swift; sourceTree = "<group>"; };
+		7392724D29E1DD3F00EF8265 /* PrintingProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintingProject.swift; sourceTree = "<group>"; };
+		7392724F29E24AA600EF8265 /* NewPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPartViewController.swift; sourceTree = "<group>"; };
+		7392725129E2FBC500EF8265 /* NewFilamentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFilamentController.swift; sourceTree = "<group>"; };
+		7392725529E2FC2D00EF8265 /* FilamentsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilamentsTableViewController.swift; sourceTree = "<group>"; };
+		7392725729E30C7500EF8265 /* ColorCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCellView.swift; sourceTree = "<group>"; };
+		7392725929E30DFD00EF8265 /* FilamentComboBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilamentComboBox.swift; sourceTree = "<group>"; };
+		7392725B29E30E9300EF8265 /* CheckboxCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxCellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7392721029E0E1F500EF8265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7392722729E0E1F600EF8265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7392723129E0E1F600EF8265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7392720A29E0E1F500EF8265 = {
+			isa = PBXGroup;
+			children = (
+				7392724D29E1DD3F00EF8265 /* PrintingProject.swift */,
+				7392725129E2FBC500EF8265 /* NewFilamentController.swift */,
+				7392724F29E24AA600EF8265 /* NewPartViewController.swift */,
+				730AEA3F29E5382E003364F0 /* FilamentComboBoxCell.swift */,
+				7392725529E2FC2D00EF8265 /* FilamentsTableViewController.swift */,
+				7392724729E1A52100EF8265 /* PartsTableViewController.swift */,
+				7392724929E1AEF100EF8265 /* Part.swift */,
+				7392724B29E1B0B200EF8265 /* Filament.swift */,
+				7392725929E30DFD00EF8265 /* FilamentComboBox.swift */,
+				7392725B29E30E9300EF8265 /* CheckboxCellView.swift */,
+				7392725729E30C7500EF8265 /* ColorCellView.swift */,
+				730AEA4329E5C942003364F0 /* RubleFormatter.swift */,
+				730AEA4129E5B705003364F0 /* NSColorCodable.swift */,
+				7392721529E0E1F500EF8265 /* 3D Print Reg */,
+				7392722D29E0E1F600EF8265 /* 3D Print RegTests */,
+				7392723729E0E1F600EF8265 /* 3D Print RegUITests */,
+				7392721429E0E1F500EF8265 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7392721429E0E1F500EF8265 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7392721329E0E1F500EF8265 /* 3D Print Reg.app */,
+				7392722A29E0E1F600EF8265 /* 3D Print RegTests.xctest */,
+				7392723429E0E1F600EF8265 /* 3D Print RegUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7392721529E0E1F500EF8265 /* 3D Print Reg */ = {
+			isa = PBXGroup;
+			children = (
+				7392721629E0E1F500EF8265 /* AppDelegate.swift */,
+				7392721829E0E1F500EF8265 /* MainViewController.swift */,
+				7392721A29E0E1F500EF8265 /* Document.swift */,
+				7392721F29E0E1F600EF8265 /* Assets.xcassets */,
+				7392722129E0E1F600EF8265 /* Main.storyboard */,
+				7392722429E0E1F600EF8265 /* Info.plist */,
+				7392722529E0E1F600EF8265 /* _D_Print_Reg.entitlements */,
+				7392721C29E0E1F500EF8265 /* Document.xcdatamodeld */,
+			);
+			path = "3D Print Reg";
+			sourceTree = "<group>";
+		};
+		7392722D29E0E1F600EF8265 /* 3D Print RegTests */ = {
+			isa = PBXGroup;
+			children = (
+				7392722E29E0E1F600EF8265 /* _D_Print_RegTests.swift */,
+			);
+			path = "3D Print RegTests";
+			sourceTree = "<group>";
+		};
+		7392723729E0E1F600EF8265 /* 3D Print RegUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7392723829E0E1F600EF8265 /* _D_Print_RegUITests.swift */,
+				7392723A29E0E1F600EF8265 /* _D_Print_RegUITestsLaunchTests.swift */,
+			);
+			path = "3D Print RegUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7392721229E0E1F500EF8265 /* 3D Print Reg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7392723E29E0E1F600EF8265 /* Build configuration list for PBXNativeTarget "3D Print Reg" */;
+			buildPhases = (
+				7392720F29E0E1F500EF8265 /* Sources */,
+				7392721029E0E1F500EF8265 /* Frameworks */,
+				7392721129E0E1F500EF8265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3D Print Reg";
+			productName = "3D Print Reg";
+			productReference = 7392721329E0E1F500EF8265 /* 3D Print Reg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7392722929E0E1F600EF8265 /* 3D Print RegTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7392724129E0E1F600EF8265 /* Build configuration list for PBXNativeTarget "3D Print RegTests" */;
+			buildPhases = (
+				7392722629E0E1F600EF8265 /* Sources */,
+				7392722729E0E1F600EF8265 /* Frameworks */,
+				7392722829E0E1F600EF8265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7392722C29E0E1F600EF8265 /* PBXTargetDependency */,
+			);
+			name = "3D Print RegTests";
+			productName = "3D Print RegTests";
+			productReference = 7392722A29E0E1F600EF8265 /* 3D Print RegTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7392723329E0E1F600EF8265 /* 3D Print RegUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7392724429E0E1F600EF8265 /* Build configuration list for PBXNativeTarget "3D Print RegUITests" */;
+			buildPhases = (
+				7392723029E0E1F600EF8265 /* Sources */,
+				7392723129E0E1F600EF8265 /* Frameworks */,
+				7392723229E0E1F600EF8265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7392723629E0E1F600EF8265 /* PBXTargetDependency */,
+			);
+			name = "3D Print RegUITests";
+			productName = "3D Print RegUITests";
+			productReference = 7392723429E0E1F600EF8265 /* 3D Print RegUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7392720B29E0E1F500EF8265 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7392721229E0E1F500EF8265 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					7392722929E0E1F600EF8265 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 7392721229E0E1F500EF8265;
+					};
+					7392723329E0E1F600EF8265 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 7392721229E0E1F500EF8265;
+					};
+				};
+			};
+			buildConfigurationList = 7392720E29E0E1F500EF8265 /* Build configuration list for PBXProject "3D Print Reg" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7392720A29E0E1F500EF8265;
+			productRefGroup = 7392721429E0E1F500EF8265 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7392721229E0E1F500EF8265 /* 3D Print Reg */,
+				7392722929E0E1F600EF8265 /* 3D Print RegTests */,
+				7392723329E0E1F600EF8265 /* 3D Print RegUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7392721129E0E1F500EF8265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7392722029E0E1F600EF8265 /* Assets.xcassets in Resources */,
+				7392722329E0E1F600EF8265 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7392722829E0E1F600EF8265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7392723229E0E1F600EF8265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7392720F29E0E1F500EF8265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7392721E29E0E1F500EF8265 /* Document.xcdatamodeld in Sources */,
+				7392725629E2FC2D00EF8265 /* FilamentsTableViewController.swift in Sources */,
+				730AEA4429E5C942003364F0 /* RubleFormatter.swift in Sources */,
+				7392721929E0E1F500EF8265 /* MainViewController.swift in Sources */,
+				7392725C29E30E9300EF8265 /* CheckboxCellView.swift in Sources */,
+				730AEA4229E5B705003364F0 /* NSColorCodable.swift in Sources */,
+				7392724E29E1DD3F00EF8265 /* PrintingProject.swift in Sources */,
+				7392725A29E30DFD00EF8265 /* FilamentComboBox.swift in Sources */,
+				7392725829E30C7500EF8265 /* ColorCellView.swift in Sources */,
+				7392721729E0E1F500EF8265 /* AppDelegate.swift in Sources */,
+				7392725329E2FBC500EF8265 /* NewFilamentController.swift in Sources */,
+				730AEA4029E5382E003364F0 /* FilamentComboBoxCell.swift in Sources */,
+				7392725029E24AA600EF8265 /* NewPartViewController.swift in Sources */,
+				7392724C29E1B0B200EF8265 /* Filament.swift in Sources */,
+				7392724829E1A52100EF8265 /* PartsTableViewController.swift in Sources */,
+				7392724A29E1AEF100EF8265 /* Part.swift in Sources */,
+				7392721B29E0E1F500EF8265 /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7392722629E0E1F600EF8265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7392722F29E0E1F600EF8265 /* _D_Print_RegTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7392723029E0E1F600EF8265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7392723B29E0E1F600EF8265 /* _D_Print_RegUITestsLaunchTests.swift in Sources */,
+				7392723929E0E1F600EF8265 /* _D_Print_RegUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7392722C29E0E1F600EF8265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7392721229E0E1F500EF8265 /* 3D Print Reg */;
+			targetProxy = 7392722B29E0E1F600EF8265 /* PBXContainerItemProxy */;
+		};
+		7392723629E0E1F600EF8265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7392721229E0E1F500EF8265 /* 3D Print Reg */;
+			targetProxy = 7392723529E0E1F600EF8265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7392722129E0E1F600EF8265 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7392722229E0E1F600EF8265 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7392723C29E0E1F600EF8265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7392723D29E0E1F600EF8265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7392723F29E0E1F600EF8265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "3D Print Reg/_D_Print_Reg.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6L6PCU78HK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "3D Print Reg/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RT.-D-Print-Reg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7392724029E0E1F600EF8265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "3D Print Reg/_D_Print_Reg.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6L6PCU78HK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "3D Print Reg/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RT.-D-Print-Reg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7392724229E0E1F600EF8265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6L6PCU78HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RT.-D-Print-RegTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3D Print Reg.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3D Print Reg";
+			};
+			name = Debug;
+		};
+		7392724329E0E1F600EF8265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6L6PCU78HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RT.-D-Print-RegTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3D Print Reg.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3D Print Reg";
+			};
+			name = Release;
+		};
+		7392724529E0E1F600EF8265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6L6PCU78HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RT.-D-Print-RegUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "3D Print Reg";
+			};
+			name = Debug;
+		};
+		7392724629E0E1F600EF8265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6L6PCU78HK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RT.-D-Print-RegUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "3D Print Reg";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7392720E29E0E1F500EF8265 /* Build configuration list for PBXProject "3D Print Reg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7392723C29E0E1F600EF8265 /* Debug */,
+				7392723D29E0E1F600EF8265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7392723E29E0E1F600EF8265 /* Build configuration list for PBXNativeTarget "3D Print Reg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7392723F29E0E1F600EF8265 /* Debug */,
+				7392724029E0E1F600EF8265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7392724129E0E1F600EF8265 /* Build configuration list for PBXNativeTarget "3D Print RegTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7392724229E0E1F600EF8265 /* Debug */,
+				7392724329E0E1F600EF8265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7392724429E0E1F600EF8265 /* Build configuration list for PBXNativeTarget "3D Print RegUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7392724529E0E1F600EF8265 /* Debug */,
+				7392724629E0E1F600EF8265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7392721C29E0E1F500EF8265 /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7392721D29E0E1F500EF8265 /* Document.xcdatamodel */,
+			);
+			currentVersion = 7392721D29E0E1F500EF8265 /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7392720B29E0E1F500EF8265 /* Project object */;
+}
