@@ -43,6 +43,7 @@ class MainViewController: NSViewController, NSTextFieldDelegate, NSTableViewData
         let nc = NotificationCenter.default
         nc.addObserver(self, selector: #selector(partsTableChanged), name: Notification.Name("partsTableChanged"), object: nil)
         nc.addObserver(self, selector: #selector(filamentsTableChanged), name: Notification.Name("filamentsTableChanged"), object: nil)
+        nc.addObserver(self, selector: #selector(showEditPartDialog), name: Notification.Name("editPartRequested"), object: nil)
     }
 
     override var representedObject: Any? {
@@ -94,11 +95,11 @@ class MainViewController: NSViewController, NSTextFieldDelegate, NSTableViewData
                     project.parts[row].time = editedTextField.integerValue
                 } else if column.identifier.rawValue == "weight" {
                     project.parts[row].weight = editedTextField.floatValue
-                } else if let filamentComboBox = sender as? FilamentComboBox {
+                } /*else if let filamentComboBox = sender as? FilamentComboBox {
                     let row = PartsTable.row(for: filamentComboBox)
                     
                     project.parts[row].filamentIndex = filamentComboBox.indexOfSelectedItem
-                }
+                }*/
                 
                 PartsTable.reloadData(forRowIndexes: [row], columnIndexes: [2, 6, 7, 8])
             }
@@ -222,5 +223,20 @@ class MainViewController: NSViewController, NSTextFieldDelegate, NSTableViewData
         addPartButton.isEnabled = project.filaments.count > 0
         
         PartsTable.reloadData()
+    }
+    
+    @objc func showEditPartDialog(_ notification: NSNotification) {
+        if let partIndex = notification.userInfo?["partIndex"] as? Int {
+            self.performSegue(withIdentifier: "partEditor", sender: partIndex)
+        }
+    }
+    
+    override func prepare(for segue: NSStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "partEditor") {
+            if let partEditorVC = segue.destinationController as? NewPartViewController {
+                partEditorVC.editedPartIndex = sender as? Int
+            }
+           
+        }
     }
 }

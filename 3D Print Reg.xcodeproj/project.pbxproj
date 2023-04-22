@@ -29,6 +29,8 @@
 		7392725829E30C7500EF8265 /* ColorCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392725729E30C7500EF8265 /* ColorCellView.swift */; };
 		7392725A29E30DFD00EF8265 /* FilamentComboBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392725929E30DFD00EF8265 /* FilamentComboBox.swift */; };
 		7392725C29E30E9300EF8265 /* CheckboxCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7392725B29E30E9300EF8265 /* CheckboxCellView.swift */; };
+		73F6074829F33EE900C07465 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F6074729F33EE900C07465 /* Material.swift */; };
+		73F6074A29F40F0D00C07465 /* NSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F6074929F40F0D00C07465 /* NSMutableAttributedString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		7392725729E30C7500EF8265 /* ColorCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCellView.swift; sourceTree = "<group>"; };
 		7392725929E30DFD00EF8265 /* FilamentComboBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilamentComboBox.swift; sourceTree = "<group>"; };
 		7392725B29E30E9300EF8265 /* CheckboxCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxCellView.swift; sourceTree = "<group>"; };
+		73F6074729F33EE900C07465 /* Material.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
+		73F6074929F40F0D00C07465 /* NSMutableAttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSMutableAttributedString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		7392720A29E0E1F500EF8265 = {
 			isa = PBXGroup;
 			children = (
+				73F6074929F40F0D00C07465 /* NSMutableAttributedString.swift */,
 				7392724D29E1DD3F00EF8265 /* PrintingProject.swift */,
 				7392725129E2FBC500EF8265 /* NewFilamentController.swift */,
 				7392724F29E24AA600EF8265 /* NewPartViewController.swift */,
@@ -113,6 +118,7 @@
 				7392725529E2FC2D00EF8265 /* FilamentsTableViewController.swift */,
 				7392724729E1A52100EF8265 /* PartsTableViewController.swift */,
 				7392724929E1AEF100EF8265 /* Part.swift */,
+				73F6074729F33EE900C07465 /* Material.swift */,
 				7392724B29E1B0B200EF8265 /* Filament.swift */,
 				7392725929E30DFD00EF8265 /* FilamentComboBox.swift */,
 				7392725B29E30E9300EF8265 /* CheckboxCellView.swift */,
@@ -308,8 +314,10 @@
 				7392725A29E30DFD00EF8265 /* FilamentComboBox.swift in Sources */,
 				7392725829E30C7500EF8265 /* ColorCellView.swift in Sources */,
 				7392721729E0E1F500EF8265 /* AppDelegate.swift in Sources */,
+				73F6074829F33EE900C07465 /* Material.swift in Sources */,
 				7392725329E2FBC500EF8265 /* NewFilamentController.swift in Sources */,
 				730AEA4029E5382E003364F0 /* FilamentComboBoxCell.swift in Sources */,
+				73F6074A29F40F0D00C07465 /* NSMutableAttributedString.swift in Sources */,
 				7392725029E24AA600EF8265 /* NewPartViewController.swift in Sources */,
 				7392724C29E1B0B200EF8265 /* Filament.swift in Sources */,
 				7392724829E1A52100EF8265 /* PartsTableViewController.swift in Sources */,

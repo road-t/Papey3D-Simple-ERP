@@ -18,13 +18,13 @@ class PrintingProject: Codable {
     var parts: [Part] = []
     
     var total: Part {
-        var totalPart = Part(name: "Total", filamentIndex: -1, time: 0, weight: 0)
+        var totalPart = Part(name: "Total", filaments: [Material()], time: 0)
         
         var isDone = true
         
         for part in parts {
-            totalPart.time! += part.time!
-            totalPart.weight! += part.weight!
+            totalPart.time += part.time
+            totalPart.weight += part.weight
             totalPart.filamentCost += part.filamentCost
             
             if !part.done {

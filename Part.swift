@@ -7,28 +7,30 @@
 
 import Cocoa
 
-
 struct Part: Codable {
     var done : Bool = false
     var name : String
-    var filamentIndex : Int = -1
-    var time : Int?
-    var weight : Float?
+    var filaments : [Material] = []
+    var time : Int
     
     private var _filamentCost : Float = 0
+    private var _weight : Float = 0
     
     private enum CodingKeys: String, CodingKey {
-            case done, name, filamentIndex, time, weight
+            case done, name, filaments, time
     }
     
     var filamentCost : Float {
         get {
-            if !project.filaments.isEmpty && filamentIndex >= 0 && filamentIndex < project.filaments.count {
-                let filament = project.filaments[filamentIndex]
-                return self.weight != nil ? filament.pricePerGramm * self.weight! : 0
-            } else {
-                return _filamentCost
+            var cost : Float = 0
+            
+            for filament in filaments {
+                if filament.index >= 0 && filament.index < project.filaments.count {
+                    cost += project.filaments[filament.index].pricePerGramm * filament.weight
+                }
             }
+            
+            return cost > 0 ? cost : _filamentCost
         }
         
         set {
@@ -36,15 +38,32 @@ struct Part: Codable {
         }
     }
     
-    init(name: String, filamentIndex: Int, time: Int?, weight: Float?) {
+    var weight : Float {
+        get {
+            var totalWeight : Float = 0
+            
+            for filament in filaments {
+                if filament.index >= 0 && filament.index < project.filaments.count {
+                    totalWeight += filament.weight
+                }
+            }
+            
+            return totalWeight > 0 ? totalWeight : _weight
+        }
+        
+        set {
+            _weight = newValue
+        }
+    }
+    
+    init(name: String, filaments: [Material], time: Int) {
         self.name = name
-        self.filamentIndex = filamentIndex
+        self.filaments = filaments
         self.time = time
-        self.weight = weight
     }
     
     func printCost(timeCost: Float) -> Float {
-        return self.time != nil ? (self.filamentCost + Float(self.time!) * timeCost) : 0
+        return self.filamentCost + Float(self.time) * timeCost
     }
     
     func getPrice(timeCost: Float, multiplier: Float) -> Float {
