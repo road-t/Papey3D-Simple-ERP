@@ -41,9 +41,8 @@ class PartsTableView : NSTableView, NSTableViewClickableDelegate, NSTableViewDat
               }
           }*/
       } else if (tableColumn?.identifier)!.rawValue == "number" {
-          if isRegularRow {
-              cell.textField?.integerValue = row + 1
-          }
+          cell.textField?.integerValue = row + 1
+          cell.textField?.isHidden = !isRegularRow
       } else if (tableColumn?.identifier)!.rawValue == "time" {
           let time = (part.time / 60, (part.time % 60))
           cell.textField?.stringValue = String(format: "%02d:%02d", time.0, time.1)
@@ -54,7 +53,7 @@ class PartsTableView : NSTableView, NSTableViewClickableDelegate, NSTableViewDat
       } else if (tableColumn?.identifier)!.rawValue == "filamentCost" {
           cell.textField?.floatValue = part.filamentCost
       } else if (tableColumn?.identifier)!.rawValue == "totalCost" {
-          cell.textField?.floatValue = (part.filamentCost + Float(part.time)) * project.timeCost
+          cell.textField?.floatValue = part.filamentCost + Float(part.time) * project.timeCost
       } else if (tableColumn?.identifier)!.rawValue == "sum" {
               cell.textField?.floatValue = (part.filamentCost + Float(part.time) * project.timeCost) * project.costMultiplier
       } else if (tableColumn?.identifier)!.rawValue == "price" {

@@ -1259,7 +1259,7 @@
                                 <rect key="frame" x="430" y="160" width="48" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="2" drawsBackground="YES" id="c1P-5z-GbJ">
-                                    <numberFormatter key="formatter" formatterBehavior="default10_4" localizesFormat="NO" numberStyle="decimal" formatWidth="-1" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="V1R-4i-o20"/>
+                                    <numberFormatter key="formatter" formatterBehavior="default10_4" localizesFormat="NO" numberStyle="decimal" formatWidth="-1" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="V1R-4i-o20" customClass="RubleFormatter" customModule="_D_Print_Reg" customModuleProvider="target"/>
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1268,7 +1268,7 @@
                             <textField verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hiX-XV-5ok" userLabel="Minute price">
                                 <rect key="frame" x="429" y="130" width="48" height="21"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="3" drawsBackground="YES" id="qt2-Te-Nhy">
-                                    <numberFormatter key="formatter" formatterBehavior="default10_4" localizesFormat="NO" numberStyle="decimal" formatWidth="-1" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="gFp-VW-zhX"/>
+                                    <numberFormatter key="formatter" formatterBehavior="default10_4" localizesFormat="NO" numberStyle="decimal" formatWidth="-1" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="gFp-VW-zhX" customClass="RubleFormatter" customModule="_D_Print_Reg" customModuleProvider="target"/>
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -1419,7 +1419,7 @@
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xx2-Ts-RlW">
                                 <rect key="frame" x="12" y="50" width="64" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" truncatesLastVisibleLine="YES" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="1,500" drawsBackground="YES" id="8yB-aG-8jd">
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" truncatesLastVisibleLine="YES" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="2,000" drawsBackground="YES" id="8yB-aG-8jd">
                                     <numberFormatter key="formatter" formatterBehavior="default10_4" localizesFormat="NO" numberStyle="decimal" formatWidth="-1" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="eL5-qp-Jl2" customClass="RubleFormatter" customModule="_D_Print_Reg" customModuleProvider="target"/>
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
@@ -1640,7 +1640,7 @@ DQ
                                 <rect key="frame" x="20" y="46" width="59" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="100" drawsBackground="YES" id="syG-cK-Vo2">
-                                    <numberFormatter key="formatter" formatterBehavior="default10_4" localizesFormat="NO" formatWidth="-1" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="XR0-GN-dyT">
+                                    <numberFormatter key="formatter" formatterBehavior="default10_4" localizesFormat="NO" numberStyle="decimal" formatWidth="-1" minimumIntegerDigits="1" maximumIntegerDigits="2000000000" maximumFractionDigits="3" id="XR0-GN-dyT">
                                         <real key="minimum" value="1"/>
                                     </numberFormatter>
                                     <font key="font" metaFont="system"/>
